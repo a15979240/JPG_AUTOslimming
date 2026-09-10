@@ -1,0 +1,38 @@
+name: jpg_slimming
+description: "JPG 瘦身工具 - 手動與自動壓縮模式"
+publish_to: 'none'
+
+version: 1.1.2+4
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # 圖片處理（解碼、壓縮、縮放）
+  image: ^4.8.0
+  # 檔案/資料夾選擇
+  file_picker: ^11.0.3
+  # 設定儲存
+  shared_preferences: ^2.3.3
+  # 權限處理
+  permission_handler: ^11.3.1
+  # 背景自動化排程
+  workmanager: ^0.10.7
+  # 通知
+  flutter_local_notifications: ^22.3.0
+  # 路徑
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
